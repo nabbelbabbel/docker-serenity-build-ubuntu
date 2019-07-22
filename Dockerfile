@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
   python3-pip \
   libboost-all-dev \
   libhdf5-dev \
-  doxygen
+  doxygen \
+  graphviz
 
 RUN pip3 install gcovr
