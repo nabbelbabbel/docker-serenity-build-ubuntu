@@ -12,3 +12,5 @@ RUN apt-get update && apt-get install -y \
   libboost-all-dev \
   libhdf5-dev \
   doxygen
+
+RUN pip3 install gcovr
