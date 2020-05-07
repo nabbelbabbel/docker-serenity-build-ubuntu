@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
   libboost-all-dev \
   libhdf5-dev \
   doxygen \
+  clang-format-8\
   graphviz
 
 RUN pip3 install gcovr
